@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!-- Display Page Title -->
+  <title>Home</title>
+  <!--Import fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Sniglet:800' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--Import game css-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+  <div id="toolbar">
+    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+    <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+    <i class="fa fa-floppy-o" aria-hidden="true"></i>
+  </div>
+
+  <div id="game">
+    <canvas id="world">
+    </canvas>
+  </div>
+
+  <div id="side-panel">
+
+    <div class="drop-down">
+      <div class="header">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        Metadata
+      </div>
+
+      <div class="drop-down-item">
+        Street Name: <br>
+        <input type="text"></input>
+      </div>
+
+      <div class="drop-down-item">
+        GUID: <br>
+        <input type="text" value="G10241024" disabled></input>
+      </div>
+
+      <div class="drop-down-item">
+        Width: <br>
+        <input type="number" value="2400"></input>
+      </div>
+
+      <div class="drop-down-item">
+        Height: <br>
+        <input type="number" value="1500"></input>
+      </div>
+
+    </div>
+
+    <div class="drop-down">
+      <div class="header">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        Ambience
+      </div>
+
+      <div class="drop-down-item">
+        Morning:<br>
+        <div  class="drop-down_two-column">
+          <div>
+            <input class="color-picker" type="text"></input><br>
+            <input class="color-picker" type="text"></input>
+          </div>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+        <div  class="drop-down_two-column">
+          <input class="color-picker" type="text"></input>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="drop-down-item">
+        Afternoon:<br>
+        <div  class="drop-down_two-column">
+          <div>
+            <input class="color-picker" type="text"></input><br>
+            <input class="color-picker" type="text"></input>
+          </div>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+        <div  class="drop-down_two-column">
+          <input class="color-picker" type="text"></input>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="drop-down-item">
+        Night:<br>
+        <div  class="drop-down_two-column">
+          <div>
+            <input class="color-picker" type="text"></input><br>
+            <input class="color-picker" type="text"></input>
+          </div>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+        <div  class="drop-down_two-column">
+          <input class="color-picker" type="text"></input>
+          <div>
+            <div class="gradient-square"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="drop-down-item">
+        Song: <br>
+        <input type="text" value="groddle"></input>
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <div class="header">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        Decoration
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <div class="header">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        Collision
+      </div>
+    </div>
+
+    <div class="drop-down">
+      <div class="header">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        Entities
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+</main>
+
+<script type="application/dart" src="main.dart"></script>
+<script src="packages/browser/dart.js"></script>
+</body>
+</html>

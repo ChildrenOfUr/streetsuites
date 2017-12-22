@@ -1,0 +1,4 @@
+name: streetsuites
+dependencies:
+  stagexl: "1.0.0"
+  browser: any

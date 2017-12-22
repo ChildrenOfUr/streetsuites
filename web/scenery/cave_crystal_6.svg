@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 61.576 54.25506">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4, .cls-5 {
+        opacity: 0.35;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-7, .cls-9 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-11, .cls-6, .cls-8 {
+        mix-blend-mode: soft-light;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-10, .cls-7, .cls-9 {
+        opacity: 0.25;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-10);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="10.65656" y1="-3.92572" x2="1.45656" y2="40.24928" gradientTransform="matrix(1, 0, 0, -1, 0, 56)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#004274"/>
+      <stop offset="0.1098" stop-color="#01385a"/>
+      <stop offset="0.25098" stop-color="#022d3f"/>
+      <stop offset="0.37647" stop-color="#03262f"/>
+      <stop offset="0.47451" stop-color="#032429"/>
+      <stop offset="1" stop-color="#001c21"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="50.01692" y1="-9.42148" x2="31.81692" y2="78.02853" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="47.41148" y1="29.04152" x2="41.40908" y2="12.90154" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#87d6d4"/>
+      <stop offset="1" stop-color="#87d6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="62.71125" y1="23.64328" x2="55.23403" y2="3.64453" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="57.48124" y1="52.4487" x2="52.21393" y2="38.36064" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="54.59299" y1="32.78319" x2="50.41881" y2="21.61884" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-7" x1="27.42769" y1="55.49334" x2="40.20765" y2="35.43282" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="6.73616" y1="46.77269" x2="2.76754" y2="36.15812" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-9" x1="12.1987" y1="41.4674" x2="7.9917" y2="30.21527" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-10" x1="11.91075" y1="53.33278" x2="10.35611" y2="49.21854" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <title>cave_crystal_6</title>
+  <g class="cls-1">
+    <g id="Layer_1" data-name="Layer 1">
+      <path class="cls-2" d="M13.35,38.4Q8.6,27.25,7.6,28.7L0,52.25A87.14426,87.14426,0,0,0,9.75,53.3q6.9.3,8.25-1.05Q18,49.45,13.35,38.4Z"/>
+      <path class="cls-3" d="M59.2,1a25.84834,25.84834,0,0,0-4.95,4.55q-6.6,7.2-14.8,20.4L22.85,52.6A93.01647,93.01647,0,0,0,35.5,54.05q14.5.9,24.05-2.15.85-.5,1.45-3,1.2-5.05-.1-15A134.493,134.493,0,0,1,60.15,11q.25-6.5.75-11Z"/>
+      <path id="flash2_ai_Layer_1_Path_7_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  7 0 Layer0 0 FILL" class="cls-4" d="M44.1,19.9q-2.25,3.3-7.4,12.45A14.87023,14.87023,0,0,0,42.05,31a13.039,13.039,0,0,0,7.6-8.15,45.39585,45.39585,0,0,0,2.25-10.3A15.39254,15.39254,0,0,0,51.9,9Q46.35,16.6,44.1,19.9Z"/>
+      <path id="flash2_ai_Layer_1_Path_6_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  6 0 Layer0 0 FILL" class="cls-5" d="M59.7,8.65a52.07338,52.07338,0,0,0,.2-6.75A32.73949,32.73949,0,0,0,57,5.95q-2.85,4.7-2.65,8.05A16.82584,16.82584,0,0,0,57,21.45a26.75837,26.75837,0,0,0,2.35,3.45Q59.35,13.3,59.7,8.65Z"/>
+      <path id="flash2_ai_Layer_1_Path_5_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  5 0 Layer0 0 FILL" class="cls-6" d="M61.1,43.95a41.5313,41.5313,0,0,0-.7-8.65,14.0545,14.0545,0,0,0-2.85,1.95,19.181,19.181,0,0,0-5.1,6.35A67.73193,67.73193,0,0,0,48.6,53.65l6.45-.7,4.3-1.2A19.7288,19.7288,0,0,0,61.1,43.95Z"/>
+      <path id="flash2_ai_Layer_1_Path_4_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  4 0 Layer0 0 FILL" class="cls-7" d="M56.85,25.5q-1.9-4.95-3.05-5.1-.8-.1-2.5,3.65-.4.9-2.35,5.7-.75,2,2.75,2.75a7.10222,7.10222,0,0,0,6-1.2Q58.8,30.5,56.85,25.5Z"/>
+      <path id="flash2_ai_Layer_1_Path_3_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  3 0 Layer0 0 FILL" class="cls-8" d="M23.2,52.8q1.7,1,11.25,1Q41,37.35,41,36.15q0-.85-2.2.3a30.56114,30.56114,0,0,0-4.55,3.15Q31.15,42.2,23.2,52.8Z"/>
+      <path id="flash2_ai_Layer_1_Path_2_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  2 0 Layer0 0 FILL" class="cls-9" d="M8.15,37.35A18.064,18.064,0,0,0,6.4,34.8L2.25,48.45q1.45-1,3.05-2.3,3.2-2.65,3.85-4.3Q9.8,40.25,8.15,37.35Z"/>
+      <path id="flash2_ai_Layer_1_Path_1_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  1 0 Layer0 0 FILL" class="cls-10" d="M13.85,40.85Q10.2,33.2,8.3,30.1A7.16188,7.16188,0,0,0,7.8,32a6.63085,6.63085,0,0,0,.5,4,10.85712,10.85712,0,0,0,3.3,3.45A13.463,13.463,0,0,0,13.85,40.85Z"/>
+      <path id="flash2_ai_Layer_1_Path_0_Layer0_0_FILL" data-name="flash2 ai Layer 1  Path  0 Layer0 0 FILL" class="cls-11" d="M8.3,52.6h5.55a6.39525,6.39525,0,0,0,.2-1.65,2.366,2.366,0,0,0-1.1-2.35Q11.9,48.05,10,50.3A18.59448,18.59448,0,0,0,8.3,52.6Z"/>
+    </g>
+  </g>
+</svg>
