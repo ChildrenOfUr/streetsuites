@@ -1,28 +1,31 @@
-import 'dart:html';
-import 'dart:convert';
 import 'package:streetsuites/interface.dart';
-import 'package:streetsuites/display/keyboard.dart';
-import 'package:streetsuites/display/streetstage.dart';
-
-
-StreetStage stage = new StreetStage();
+import 'package:streetsuites/model/model.dart';
+import 'package:streetsuites/display/view.dart';
 
 main() async {
   DropDownManager.start();
-  StreetStage.init();
 
   resources.addTextFile('forest.json', 'forest.json');
   await resources.load();
-  Map def = JSON.decode(resources.getTextFile('forest.json'));
 
-  Street street = new Street(def);
-  await street.load();
-  stage.setStreet(street);
+  StreetModel streetModel =
+      new StreetModel.fromJSON(resources.getTextFile('forest.json'));
 
-  await Keyboard.init();
-  loop();
+  StreetView streetView = new StreetView()
+    ..attach(streetModel);
+
+
+  //Map def = JSON.decode(resources.getTextFile('forest.json'));
+
+  //Street street = new Street(def);
+  //await street.load();
+  //stage.setStreet(street);
+
+  //await Keyboard.init();
+  //loop();
 }
 
+/*
 loop() async {
   int newX = stage.camera.x;
   int newY = stage.camera.y;
@@ -47,3 +50,4 @@ loop() async {
   await window.animationFrame;
   loop();
 }
+*/

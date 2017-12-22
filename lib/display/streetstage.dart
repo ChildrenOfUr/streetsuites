@@ -2,7 +2,6 @@ library streetstage;
 import 'package:stagexl/stagexl.dart';
 import 'dart:html' as html;
 import 'dart:math' as Math;
-import 'dart:convert';
 
 part 'camera.dart';
 part 'layers.dart';
